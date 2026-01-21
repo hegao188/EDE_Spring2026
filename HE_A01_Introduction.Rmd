@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ## 3) Knitting
 ---
 title: "Assignment 1: Introduction"
@@ -25,23 +30,23 @@ Enter answers to the questions just below the >Answer: prompt.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: I have experience with data analytics from coursework and personal projects, including data cleaning, basic exploratory analysis, and simple visualizations. My R experience is mainly informal (self-learning), and I have used R for analyses such as PCA and meta-analysis. I did not have prior experience with Git before this course, so I am currently learning the basic workflow (staging, committing, and pushing) through hands-on practice.
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: I feel confident about the overall learning support and structure of the course. Since the course provides recorded materials, I can review the content after class and learn at my own pace. This helps me feel confident that I can keep up with the course, strengthen my understanding, and improve steadily through repeated practice.
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: I feel a bit apprehensive about the more technical components of the course, especially Git and GitHub, because I have not had formal training in programming. In the past, most of my academic background has been more humanities- and writing-focused, so this is a new learning experience for me. However, I believe I can improve by practicing regularly and reviewing the recorded materials after class.
 
 4. Describe a dataset you have used in the past. Explain whether it was a primary or secondary dataset. 
 
-> Answer:
+> Answer:One dataset I have used before is a life cycle inventory (LCI) dataset from the ecoinvent database, accessed through openLCA. It includes detailed process-level information such as input materials, energy use, transportation requirements, and emissions associated with producing a product or service. I used this dataset to model a full life cycle assessment (LCA), compare alternative scenarios, and identify the major “hotspots” that contribute most to the overall environmental impacts.This was a secondary dataset because the data were published by the ecoinvent database rather than collected directly myself. I used the existing life cycle inventory records (e.g., standardized process inputs, energy use, and emissions) provided by ecoinvent in openLCA for analysis, but I did not perform the original measurements or data collection myself.
 
 5. Would you describe the day of the month as a nominal, ordinal, interval, or ratio number? Explain your reasoning.
 
-> Answer: 
+> Answer: : I think the day of the month as an ordinal number because it represents an ordered position within a month (1st, 2nd, 3rd, etc.). Although we can compare which day comes earlier or later, the numerical differences are not consistently meaningful across months with different lengths, so it is best treated as ordinal rather than interval or ratio.
 
 ---
 
@@ -49,7 +54,7 @@ Enter answers to the questions just below the >Answer: prompt.
 
 Provide a link below to your forked course repository in GitHub. Make sure you have pulled all recent changes from the course repository and that you have updated your course README file, committed those changes, and pushed them to your GitHub account. 
 
-> Answer: 
+> Answer: : https://github.com/hegao188/EDE_Spring2026
 
 ---
 
