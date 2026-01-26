@@ -132,7 +132,11 @@ pass_fail_ifelse(test_scores)
 
 15. QUESTION: Which option of `if`...`else` vs. `ifelse` worked? Why? (Hint: search the web for "R vectorization"; it's ok here if an AI response is presented in the search response.)
 
-> Answer:"ifelse()" worked because it is vectorized, so it can check each value in a vector and return a result for each element. "if...else" only works with a single TRUE/FALSE condition, so it does not work properly when the input is a vector.
+> Answer:
+if...else: Used for a single condition check (not vectorized), so it cannot directly evaluate an entire column/vector element by element.
+ifelse(): A vectorized conditional function that can apply the condition to each element of a vector at the same time and return an output vector of the same length.
+The loop-based method checks each element one by one. The vectorized method uses ifelse(). It applies the condition to the entire vector at once.
+In R, vectorized conditionals evaluate conditions over whole vectors, and functions like ifelse() apply logic to entire vectors. This simplifies conditional operations.
 
 
 **NOTE** Before knitting, you'll need to comment out the call to the function in Q14 that does not work. (A document can't knit if the code it contains causes an error!)
